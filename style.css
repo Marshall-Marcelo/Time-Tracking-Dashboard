@@ -90,6 +90,10 @@ body {
   font-size: 1.3em;
 }
 
+.ellipsis:hover {
+  cursor: pointer;
+}
+
 ul {
   list-style-type: none;
   padding: 1em;
@@ -102,6 +106,8 @@ ul {
 
 li:hover {
   cursor: pointer;
+  color: white;
+  transition: 0.15s;
 }
 
 .card--profile .filter-options {
