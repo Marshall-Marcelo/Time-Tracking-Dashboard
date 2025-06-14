@@ -185,3 +185,22 @@ ul {
   font-size: 0.7em;
   font-weight: var(--light);
 }
+
+@media (min-width: 1024px) {
+  .container {
+    min-width: 1024px;
+    max-width: 1200px;
+  }
+
+  /* .container .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 2em;
+  } */
+
+  .content {
+    display: grid;
+    grid-template: repeat(); 
+  }
+}
